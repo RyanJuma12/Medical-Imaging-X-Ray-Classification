@@ -1,0 +1,34 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Model checkpoints
+checkpoint/
+*.pth
+*.pt
+*.ckpt
+
+# Dataset
+img/Dataset/
+
+# Generated train/val/test data
+img/output_test/
+img/output_test_old/
+
+# Logs
+*.log
+*.out
+*.err
