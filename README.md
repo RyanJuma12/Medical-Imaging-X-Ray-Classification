@@ -98,7 +98,6 @@ The source code is organized into sequential Python scripts that follow the comp
 
 ![ResNet50 Training Loss](plots/training/resnet50_training_loss.png)
 
-![ResNet50 Validation Accuracy](plots/training/resnet50_validation_accuracy.png)
 
 ![ResNet50 Accuracy](plots/training/resnet50_accuracy.png)
 
@@ -106,7 +105,6 @@ The source code is organized into sequential Python scripts that follow the comp
 
 ![VGG16 Training Loss](plots/training/vgg16_training_loss.png)
 
-![VGG16 Validation Accuracy](plots/training/vgg16_validation_accuracy.png)
 
 ![VGG16 Accuracy](plots/training/vgg16_accuracy.png)
 
