@@ -1,4 +1,4 @@
-# Chest X-Ray Disease Classification using Deep Learning
+ # Chest X-Ray Disease Classification using Deep Learning
 
 ## Overview
 
@@ -45,6 +45,70 @@ The source code is organized into sequential Python scripts that follow the comp
 - Training and validation curves
 - Grad-CAM visualizations
 - GPU acceleration using an HPC cluster
+
+---
+
+## Results
+
+## ResNet50
+
+### Confusion Matrix
+
+![ResNet50 Confusion Matrix](plots/evaluation/resnet50_confusion_matrix.png)
+
+### Grad-CAM Examples
+
+#### CHF
+
+![ResNet50 CHF](plots/gradcam/resnet50_chf_comparison.png)
+
+#### Normal
+
+![ResNet50 Normal](plots/gradcam/resnet50_normal_comparison.png)
+
+#### Pneumonia
+
+![ResNet50 Pneumonia](plots/gradcam/resnet50_pneumonia_comparison.png)
+
+---
+
+## VGG16
+
+### Confusion Matrix
+
+![VGG16 Confusion Matrix](plots/evaluation/vgg16_confusion_matrix.png)
+
+### Grad-CAM Examples
+
+#### CHF
+
+![VGG16 CHF](plots/gradcam/vgg16_chf_comparison.png)
+
+#### Normal
+
+![VGG16 Normal](plots/gradcam/vgg16_normal_comparison.png)
+
+#### Pneumonia
+
+![VGG16 Pneumonia](plots/gradcam/vgg16_pneumonia_comparison.png)
+
+## Training Graphs
+
+### ResNet50
+
+![ResNet50 Training Loss](plots/training/resnet50_training_loss.png)
+
+![ResNet50 Validation Accuracy](plots/training/resnet50_validation_accuracy.png)
+
+![ResNet50 Accuracy](plots/training/resnet50_accuracy.png)
+
+### VGG16
+
+![VGG16 Training Loss](plots/training/vgg16_training_loss.png)
+
+![VGG16 Validation Accuracy](plots/training/vgg16_validation_accuracy.png)
+
+![VGG16 Accuracy](plots/training/vgg16_accuracy.png)
 
 ---
 
