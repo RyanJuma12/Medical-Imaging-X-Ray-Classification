@@ -109,6 +109,10 @@ The source code is organized into sequential Python scripts that follow the comp
 ![VGG16 Accuracy](plots/training/vgg16_accuracy.png)
 
 ---
+## Research Poster
+[REU_2026_AI3.pdf](https://github.com/user-attachments/files/30836249/REU_2026_AI3.pdf)
+
+---
 
 ## Technologies
 
